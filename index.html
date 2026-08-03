@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Frozen Feast | Ice Cream Truck & Dessert Catering</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.jpg" alt="Frozen Feast logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#menu">Desserts</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#services">Packages</a></li>
+        <li><a href="#booking" class="nav-button">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="small-heading">Ice Cream • Desserts • Events</p>
+
+        <h1>Bring Frozen Feast to Your Next Event</h1>
+
+        <p class="hero-text">
+          Frozen Feast brings unforgettable desserts to parties, schools, festivals,
+          family events, and private bookings. Choose from our dessert stand,
+          ice cream truck, rolled ice cream, or full event package.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#booking" class="btn primary-btn">Request a Booking</a>
+          <a href="#menu" class="btn secondary-btn">View Desserts</a>
+        </div>
+
+        <div class="hero-info">
+          <span>📞 301-851-1004</span>
+
+          <a 
+            href="https://www.instagram.com/frozen.feast_/" 
+            target="_blank" 
+            class="instagram-btn"
+          >
+            📸 @frozen.feast_
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <p class="badge">Event Favorite</p>
+          <h2>Frozen Feast Truck</h2>
+          <p>
+            Ice cream, water ice, sundaes, mini pancakes, waffle bowls,
+            trays, and custom dessert setups.
+          </p>
+        </div>
+
+        <div class="truck-slider" id="truckSlider">
+          <img src="assets/images/truck-1.jpg" alt="Frozen Feast truck" class="slide active-slide" />
+          <img src="assets/images/truck-2.jpg" alt="Frozen Feast truck event" class="slide" />
+          <img src="assets/images/fan1.jpg" alt="Frozen Feast event fan" class="slide" />
+          <img src="assets/images/fan2.jpg" alt="Frozen Feast event fans" class="slide" />
+          <img src="assets/images/fan3.jpg" alt="Frozen Feast event setup" class="slide" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section class="section menu-section" id="menu">
+      <div class="section-title">
+        <p class="small-heading">Dessert Menu</p>
+        <h2>What We Offer</h2>
+        <p>
+          Click each dessert option to view photos.
+        </p>
+      </div>
+
+      <div class="menu-grid">
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Water Ice"
+          data-images="assets/images/Water-ice.jpg|assets/images/Snowballs.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🍧</div>
+          <h3>Water Ice</h3>
+          <p>Strawberry, lemon, and mixed flavors with optional ice cream scoop.</p>
+        </article>
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Mini Pancakes"
+          data-images="assets/images/minipancakes%26waffle.jpg|assets/images/Mini-pancakes.jpg|assets/images/mini-pancakes-trays.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🥞</div>
+          <h3>Mini Pancakes</h3>
+          <p>Oreo, Biscoff, Nutella, Fruity Pebbles, strawberry, banana, and more.</p>
+        </article>
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Kebabs"
+          data-images="assets/images/kebabs.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🍡</div>
+          <h3>Kebabs</h3>
+          <p>Mini pancake skewers loaded with chocolate, fruit, cookies, and sauces.</p>
+        </article>
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Waffle Bowls & Trays"
+          data-images="assets/images/Waffle-trays.jpg|assets/images/minipancakes%26waffle.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🧇</div>
+          <h3>Waffle Bowls & Trays</h3>
+          <p>Waffles with ice cream, whipped cream, fruit, candy, and dessert toppings.</p>
+        </article>
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Sundaes & Ice Cream"
+          data-images="assets/images/Wafflecone.jpg|assets/images/Ice-Cream-treats.jpg|assets/images/sundaes.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🍦</div>
+          <h3>Sundaes & Ice Cream</h3>
+          <p>Classic cones, sundaes, soft serve, chocolate dips, and toppings.</p>
+        </article>
+
+        <article
+          class="menu-card clickable-card"
+          data-title="Drinks & Smoothies"
+          data-images="assets/images/Milkshakes.jpg|assets/images/Hotdrinks.jpg|assets/images/smoothies.jpg"
+          tabindex="0"
+          role="button"
+        >
+          <div class="menu-icon">🥤</div>
+          <h3>Drinks & Smoothies</h3>
+          <p>Milkshakes, smoothies, fruity drinks, and refreshing frozen beverages.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="section-title">
+        <p class="small-heading">Event Gallery</p>
+        <h2>Frozen Feast Favorites</h2>
+      </div>
+
+      <div class="gallery-grid">
+
+        <div 
+          class="gallery-card zoom-gallery-card" 
+          data-title="Combos"
+          data-images="assets/images/combos.jpg"
+          style="background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.45)), url('assets/images/combos.jpg');"
+          tabindex="0"
+          role="button"
+        >
+          <h3>Combos</h3>
+        </div>
+
+        <div 
+          class="gallery-card zoom-gallery-card" 
+          data-title="Kebabs"
+          data-images="assets/images/kebabs.jpg"
+          style="background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.45)), url('assets/images/kebabs.jpg');"
+          tabindex="0"
+          role="button"
+        >
+          <h3>Kebabs</h3>
+        </div>
+
+        <div 
+          class="gallery-card zoom-gallery-card" 
+          data-title="Mini Pancakes"
+          data-images="assets/images/Mini-pancakes.jpg"
+          style="background-image: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.45)), url('assets/images/Mini-pancakes.jpg');"
+          tabindex="0"
+          role="button"
+        >
+          <h3>Mini Pancakes</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services / Packages -->
+    <section class="section" id="services">
+      <div class="section-title">
+        <p class="small-heading">Choose Your Experience</p>
+        <h2>Booking Options</h2>
+        <p>
+          Pick the setup that best fits your event. Custom requests are welcome.
+        </p>
+      </div>
+
+      <div class="service-grid">
+
+        <article class="service-card">
+          <div class="service-number">01</div>
+          <h3>Viral Dessert Stand</h3>
+          <p>
+            Create your own viral dessert stand at your event with fun toppings,
+            sweet treats, and a custom dessert experience.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">02</div>
+          <h3>Frozen Feast Truck</h3>
+          <p>
+            Book the Frozen Feast truck for your event and let guests enjoy
+            delicious frozen desserts, sundaes, drinks, and more.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+          <h3>Rolled Ice Cream</h3>
+          <p>
+            Add rolled ice cream to your event for a fresh, fun, and interactive
+            dessert experience guests will remember.
+          </p>
+        </article>
+
+        <article class="service-card featured-service">
+          <div class="service-number">04</div>
+          <h3>Full Package</h3>
+          <p>
+            Get the full experience: ice cream truck, viral dessert setup,
+            rolled ice cream, games, live music, and everything in one package.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="section booking-section" id="booking">
+      <div class="booking-container">
+
+        <div class="booking-info">
+          <p class="small-heading">Book Frozen Feast</p>
+          <h2>Request Catering or Event Booking</h2>
+
+          <p>
+            Fill out the form with your event details, package choice, and any
+            custom requests. This form will open an email with your request
+            already written.
+          </p>
+
+          <div class="contact-box">
+            <h3>Contact Information</h3>
+
+            <p><strong>Email:</strong> <a href="mailto:Lkaba1999@gmail.com">Lkaba1999@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:3018511004">301-851-1004</a></p>
+            <p><strong>Location:</strong> 6907 Lamont Dr, Lanham, MD 20706</p>
+            <p><strong>Instagram:</strong> 
+              <a href="https://www.instagram.com/frozen.feast_/" target="_blank">
+                @frozen.feast_
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="requestType">Request Type</label>
+              <select id="requestType" name="requestType" required>
+                <option value="">Select one</option>
+                <option value="Catering">Catering</option>
+                <option value="Booking">Booking</option>
+                <option value="Both Catering and Booking">Both Catering and Booking</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="package">Package Option</label>
+              <select id="package" name="package" required>
+                <option value="">Select a package</option>
+                <option value="Viral Dessert Stand">Option 1 - Viral Dessert Stand</option>
+                <option value="Frozen Feast Truck">Option 2 - Frozen Feast Truck</option>
+                <option value="Rolled Ice Cream">Option 3 - Rolled Ice Cream</option>
+                <option value="Full Package">Option 4 - Full Package</option>
+                <option value="Not Sure Yet">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="eventDate">Event Date</label>
+              <input type="date" id="eventDate" name="eventDate" required />
+            </div>
+
+            <div class="form-group">
+              <label for="guestCount">Estimated Guests</label>
+              <input type="number" id="guestCount" name="guestCount" placeholder="Example: 75" min="1" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="eventLocation">Event Location</label>
+            <input type="text" id="eventLocation" name="eventLocation" placeholder="City, address, or venue" required />
+          </div>
+
+          <div class="form-group">
+            <label for="customRequest">Custom Demands or Special Requests</label>
+            <textarea id="customRequest" name="customRequest" rows="5" placeholder="Tell us what you want: flavors, setup, games, live music, rolled ice cream, special desserts, event theme, etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn form-btn">
+            Send Request
+          </button>
+
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Food Image Popup -->
+  <div class="image-modal" id="imageModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close image popup">
+        &times;
+      </button>
+
+      <h3 id="modalTitle"></h3>
+
+      <div class="modal-image-grid" id="modalImageGrid"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Frozen Feast. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
